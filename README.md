@@ -5,5 +5,5 @@ A placeholder readme.
 
 Section 1
 
-# Section 2
-Section 2
+# Publications
+Overcoming Resistance to Technology Change: A Linked Data Perspective. [paper](Publications/EUConnect18-ResTechChange-Paper.pdf) [slides](Publications/EUConnect18-ResTechChange-Slides.pdf)
