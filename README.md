@@ -6,9 +6,10 @@ A section placeholder.
 * Systems Validation, Deployment, Support, Maintenance
 
 # Applications and Languages
-* R, R Shiny
-* RDF Triplestores
+* Resource Description Frameworkd (RDF)
+* Web Ontology Language (OWL)
 * SPARQL
+* R, R Shiny
 * SAS
 
 # Projects and Workshops
