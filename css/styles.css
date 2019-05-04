@@ -1,0 +1,26 @@
+/*-----------------------------------------------------------------------------
+FILE: styles.css
+DESC: CSS for site TimWilliams
+IN  :
+OUT :
+REQ :
+NOTES: 
+-----------------------------------------------------------------------------*/
+
+.foo{
+  color: red;
+  font-style: italic;
+  font-size: 1.2em;
+}
+	
+
+.gridPicLeft{ /*N, but keep in case needed */
+  display: grid;
+  grid-template-columns: 20% 80% ;  /* flexible grid units instead of px or % */
+  grid-gap: 5px;  /* column and row */
+}
+.gridPicLeft div{
+  border: 0px solid rgb(0.95,107);
+  border-radius: 0px;
+  padding: 0.01em;
+}
