@@ -4,33 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Tim Williams</h1>
-
-        <img src="/images/TWHeaddshot.png" alt="photo" height=65px />
-        <p>Descriptive text here
-        <p class="view">
+    <div class="gridPicLeft">
+    	<div>
+          <h1>Tim Williams</h1>
+          <img src="images/TWHeadshot.png" alt="photo" height=65px />
+          <p>Descriptive text here
+          <p class="view">
         	<img src="images/linkedInIcon.png" height=15px /><small> <a href="https://www.linkedin.com/in/timpwilliams/">https://www.linkedin.com/in/timpwilliams/</a></small><br>
           <br>
           <img src="images/Twitter.png" height=15px /><small><a href="https://twitter.com/NovasTaylor">@NovasTaylor</a></small>
-        </p>
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-      </header>
-      <section>
+          </p>
+      </div>
+      <div>     
         <h1> Main content goes here! </h1>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+      </div>
+    </div>  
   </body>
 </html>
