@@ -6,20 +6,104 @@ OUT :
 REQ :
 NOTES: 
 -----------------------------------------------------------------------------*/
+body{
+  background-color: #ffffff;
+}
 
-.foo{
-  color: red;
+h1.person{
+  font-family: 'Bookman';
+  color: black;
+  font-weight: normal;
+  margin:0.4em;
+  padding:0;
+  font-size:1.7em;
+  line-height:0.6em;
+}
+h2.sidebar{
+  font-size:0.9em;
+  font-weight: bold;
+  padding:0;
+  line-height:0.2em;
+}
+
+h1.main{
+  font-size:1.4em;
+  font-weight: bold;
+  padding:0;
+  line-height:0.3em;
+}
+h2.main{
+  font-size:1em;
+  font-weight: bold;
+  padding:0;
+  line-height:0.3em;
+}
+
+hr.sidebar{
+  font-size:0.5em;
+  padding:0;
+  line-height:0.2em;
+}
+
+.expTitle{
+  font-weight: bold;
+}
+
+.expLoc{
   font-style: italic;
-  font-size: 1.2em;
+  font-size:0.8em;
+}
+
+.expDesc{
+  font-size:0.8em;
+
+}
+
+
+.reviewIcon{
+  height:8px;
+  margin:0px -1.5px;
+  padding:0;
+
+}
+
+div.timeFrame{
+  font-family: 'Arial';
+  font-weight: normal;
+  font-size:0.7em;
+}
+
+span.tight{
+  padding:0;
+  line-height:0.5em;
+}
+
+p.personDesc{
+  font-family: 'Helvetica';
+  font-size:0.8em;
+  color: black;
 }
 	
 
+/*--- GRIDS -----------------------------------------------------------------*/ 
 .gridPicLeft{ /*N, but keep in case needed */
   display: grid;
-  grid-template-columns: 20% 80% ;  /* flexible grid units instead of px or % */
-  grid-gap: 5px;  /* column and row */
+  grid-template-columns: 230px 1fr ;  /* flexible grid units instead of px or % */
+  grid-gap: 15px;  /* column and row */
 }
 .gridPicLeft div{
+  border: 0px solid rgb(0.95,107);
+  border-radius: 0px;
+  padding: 0.01em;
+}
+
+
+.gridmaincontent{ /*N, but keep in case needed */
+  display: grid;
+  grid-template-columns: 7% 83% ;  /* flexible grid units instead of px or % */
+  grid-gap: 5px;  /* column and row */
+}
+.gridmaincontent div{
   border: 0px solid rgb(0.95,107);
   border-radius: 0px;
   padding: 0.01em;
