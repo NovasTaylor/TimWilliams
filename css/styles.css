@@ -86,6 +86,67 @@ p.personDesc{
 	
 
 /*--- GRIDS -----------------------------------------------------------------*/ 
+.name{
+  grid-area: nm;
+  width: 250px;
+
+}
+.person{
+  grid-area: pers;
+  width: 230px;
+}
+.timeframe{
+  grid-area: tf;
+}
+
+.expHeader{
+    grid-area: expH;
+}
+
+.contact{
+  grid-area: con;
+  width: 230px;
+
+}
+
+.sxn1Header{
+  grid-area: sxn1H;
+  width: 230px;
+}
+.sxn1TimeFrame{
+  grid-area: sxn1T;
+  width: 230px;
+}
+
+.sxn1Content{
+  grid-area: sxn1C;
+  width: 230px;
+}
+
+
+.foo{
+  grid-area: foo;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 5px;
+}
+.wrapper > div {
+  padding: 0m;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 250px, 100px, 100px, 100px ;
+    grid-template-rows:    2em 300px 200px;
+    grid-template-areas: 
+      "nm    .     .    .  "
+      "pers  sxn1H   sxn1H   sxn1H  "
+      "con   sxn1T   sxnC    sxnC   "
+ ;
+}
+
 .gridPicLeft{ /*N, but keep in case needed */
   display: grid;
   grid-template-columns: 230px 1fr ;  /* flexible grid units instead of px or % */
