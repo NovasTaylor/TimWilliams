@@ -4,7 +4,7 @@ DESC: CSS for site TimWilliams
 IN  :
 OUT :
 REQ :
-NOTES: 
+NOTES: https://gridbyexample.com/examples/example21/  Grid within grid
 -----------------------------------------------------------------------------*/
 body{
   background-color: #ffffff;
@@ -27,10 +27,10 @@ h2.sidebar{
 }
 
 h1.main{
-  font-size:1.4em;
+  font-size:1em;
   font-weight: bold;
   padding:0;
-  line-height:0.3em;
+  line-height:.2em;
 }
 h2.main{
   font-size:1em;
@@ -86,14 +86,64 @@ p.personDesc{
 	
 
 /*--- GRIDS -----------------------------------------------------------------*/ 
+wrapper {
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: 250px, 1fr;
+ grid-template-rows: repeat(2, [row] auto  );
+}
+
+  .box {
+    background-color: #ffffff;
+    padding: 0px;
+    /* font-size: 150%; */
+  }
+  .box .box {
+    /* nothing here */
+  }
+
+  /* Sidebar grid */
+  .a {
+    grid-column: 1;
+    grid-row:    3;
+    display: grid;
+    grid-gap: 5px;
+    
+  }
+  /* Sidebar: Name */
+  .c {
+  	grid-column: 1;
+  	grid-row:    1;
+  }
+
+  /* Sidebar: Info */
+  .d {
+  	grid-column: 1;
+  	grid-row:    2;
+	  font-family: 'Helvetica';
+    font-size:0.8em;
+    color: black;
+    width: 230px;
+  }
+
+  /* Sidebar: Contact */
+  .e {
+  	grid-column: 1;
+  	grid-row:    3;
+	  font-family: 'Helvetica';
+    font-size:0.8em;
+    color: black;
+    width: 230px;
+  }
+
+
+
 .name{
   grid-area: nm;
-  width: 250px;
 
 }
 .person{
   grid-area: pers;
-  width: 230px;
 }
 .timeframe{
   grid-area: tf;
@@ -136,9 +186,13 @@ p.personDesc{
   padding: 0m;
 }
 
+
+
+
+
 .wrapper{
     display: grid;
-    grid-template-columns: 250px, 100px, 100px, 100px ;
+    grid-template-columns: 250px, 80px, 300px, 300px ;
     grid-template-rows:    2em 300px 200px;
     grid-template-areas: 
       "nm    .     .    .  "
