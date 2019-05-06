@@ -83,14 +83,17 @@ p.personDesc{
   font-size:0.8em;
   color: black;
 }
-	
+  
 
 /*--- GRIDS -----------------------------------------------------------------*/ 
 wrapper {
  display: grid;
  grid-gap: 10px;
- grid-template-columns: 250px, 1fr;
- grid-template-rows: repeat(2, [row] auto  );
+ grid-column-gap: 100px;
+ grid-template-columns: 210px, 500px;
+ grid-auto-flow: column; 
+ 
+ /* grid-template-rows: repeat(2, [row] auto  ); */
 }
 
   .box {
@@ -102,39 +105,103 @@ wrapper {
     /* nothing here */
   }
 
-  /* Sidebar grid */
+  /* Sidebar grid subgrid container  */
   .a {
     grid-column: 1;
-    grid-row:    3;
+    grid-row:    1;     
+    grid-template-columns: 210px;  /* width of the sidebar */
     display: grid;
-    grid-gap: 5px;
+
+
+    grid:   subgrid;
+    
     
   }
-  /* Sidebar: Name */
-  .c {
-  	grid-column: 1;
-  	grid-row:    1;
-  }
+    /* Sidebar: Name */
+    .c {
+      grid-column: 1;
+      grid-row:    1;
+    /*background: blue;*/
+    }
 
-  /* Sidebar: Info */
-  .d {
-  	grid-column: 1;
-  	grid-row:    2;
-	  font-family: 'Helvetica';
-    font-size:0.8em;
-    color: black;
-    width: 230px;
-  }
+    /* Sidebar: Info */
+    .d {
+      grid-column: 1;
+      grid-row:    2;
+      font-family: 'Helvetica';
+      font-size:0.8em;
+      color: black;
+      width: 210px;
+      padding: 0px;
+      
+    }
+    
+    /* Sidebar: Contact */
+    .e {
+      grid-column: 1;
+      grid-row:    3;
+      background: #ffffdd;
+      font-family: 'Helvetica';
+      font-size:0.8em;
+      color: black;
+      width: 210px;
+    }
+    
+    /* Sidebar: Skills */
+    .f {
+      grid-column: 1;
+      grid-row:    4;
+      font-size:0.8em;
+      color: black;
+      width: 210px;
+    }
+    
+    /* Sidebar: Languages */
+    .g {
+      grid-column: 1;
+      grid-row:    5;
+      font-size:0.8em;
+      color: black;
+      width: 210px;
+    }
+  /*--- Main Grid -----------------------------------------------------------*/
+  .b {
+    grid-column: col 2;
+    grid-row:    2;
+    display: grid;
 
-  /* Sidebar: Contact */
-  .e {
-  	grid-column: 1;
-  	grid-row:    3;
-	  font-family: 'Helvetica';
-    font-size:0.8em;
-    color: black;
-    width: 230px;
+    grid:   subgrid;
+    grid-gap: 5px;
+    grid-template-columns: 100px 300px;
   }
+  
+    .i {
+      grid-column: 1;
+      grid-row:    1;
+      grid-gap: 5px;
+      align-items: left;
+      background: #ffffdd;
+    }
+    .j {
+      grid-column: 2;
+      grid-row:    1;
+      grid-gap: 5px;
+    }
+    
+    .k {
+      grid-column: 1;
+      grid-row:    2;
+      grid-gap: 5px;
+      align-items: left;
+      background: #ffffdd;
+      
+    }
+    .l {
+      grid-column: 2;
+      grid-row:    2;
+      grid-gap: 5px;
+    }
+
 
 
 
@@ -215,7 +282,7 @@ wrapper {
 
 .gridmaincontent{ /*N, but keep in case needed */
   display: grid;
-  grid-template-columns: 7% 83% ;  /* flexible grid units instead of px or % */
+  grid-template-columns: 7% 93% ;  /* flexible grid units instead of px or % */
   grid-gap: 5px;  /* column and row */
 }
 .gridmaincontent div{
