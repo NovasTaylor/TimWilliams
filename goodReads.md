@@ -1,6 +1,6 @@
 # Articles by Kurt Cagle
 
-Select articles from the proflific and insightful Kurt Cagle.
+Select articles from the prolific and insightful Kurt Cagle.
 
 
 [LinkedIn Articles](https://www.linkedin.com/in/kurtcagle/detail/recent-activity/posts/)
