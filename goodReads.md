@@ -1,3 +1,11 @@
+---
+title: "Good Reads"
+keywords: homepage
+toc: 
+tags:
+sidebar: 
+permalink: goodReads.html
+---
 
 
 # Articles by Kurt Cagle
