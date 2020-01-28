@@ -66,4 +66,9 @@ Select articles from the proflific and insightful Kurt Cagle.
 * [Smackdown: XML vs. JSON](https://www.linkedin.com/pulse/smackdown-xml-vs-json-kurt-cagle/)  2017-08-09 (LI)
 * [How To Build A Smart Data Hub](https://www.linkedin.com/pulse/how-build-smart-data-hub-kurt-cagle/) 2017-04-21 (LI)
     * From dumb data lakes to Smart Data Hubs
-    
+
+
+# Other authors
+
+## Ontology
+* [How to Correctly Link Entities From Text to Your Knowledge Graph](https://www.poolparty.biz/blogposts/how-to-correctly-link-entities-from-text-to-your-knowledge-graph/?utm_content=112513630&utm_medium=social&utm_source=twitter&hss_channel=tw-17189369) 2020-01-14
