@@ -41,17 +41,17 @@ Select articles from the proflific and insightful Kurt Cagle.
 * [Ontologies: Borrow, Build or Buy](https://www.forbes.com/sites/cognitiveworld/2019/05/07/ontologies-borrow-build-or-buy/#1196c8dcfdec) 2019-05-07 (F)
 * [Taxonomies, Ontologies And Machine Learning: The Future Of Knowledge Management](https://www.forbes.com/sites/cognitiveworld/2019/03/12/taxonomies-ontologies-and-machine-learning-the-future-of-knowledge-management/#7db7e6646e85) 2019-03-12 (F)
 * [Taxonomies vs. Ontologies](https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/#2fb9294c7d53) 2019-03-24 (F)
-* [Why Ontology Will Be A Big Word In Your Company&amp;s Future](https://www.forbes.com/sites/cognitiveworld/2018/07/20/why-ontology-will-be-a-big-word-in-your-companys-future/#252f80ea7b94) 2018-07-20(F)
+* [Why Ontology Will Be A Big Word In Your Companys Future](https://www.forbes.com/sites/cognitiveworld/2018/07/20/why-ontology-will-be-a-big-word-in-your-companys-future/#252f80ea7b94) 2018-07-20(F)
 * [Building Constraints in Taxonomic Ontologies](https://www.linkedin.com/pulse/my-car-subaru-outback-kurt-cagle/) 2017-12-03 (LI)
-* [Data Dictionaries Aren&amp;t Ontologies](https://www.linkedin.com/pulse/data-dictionaries-arent-ontologies-kurt-cagle/)2017-11-19 (LI)
-* [Taxonomists vs. Ontologists: What&amp;s the Difference?](https://www.linkedin.com/pulse/taxonomy-vs-ontology-whats-difference-kurt-cagle/) 2016-06-11 (LI)
+* [Data Dictionaries Arent Ontologies](https://www.linkedin.com/pulse/data-dictionaries-arent-ontologies-kurt-cagle/)2017-11-19 (LI)
+* [Taxonomists vs. Ontologists: Whats the Difference?](https://www.linkedin.com/pulse/taxonomy-vs-ontology-whats-difference-kurt-cagle/) 2016-06-11 (LI)
 * [Why Most Companies Need An Ontologist (or Two)](https://www.linkedin.com/in/kurtcagle/detail/recent-activity/posts/) 2016-03-03 (LI)
 * [What Semantic Inferencing Really Means](https://www.linkedin.com/pulse/what-semantic-inferencing-really-means-kurt-cagle/) 2015-12-21 (LI)
 
 
 ## SHACL
 * [Meet SHACL, the Next OWL](https://www.linkedin.com/pulse/meet-shacl-next-owl-kurt-cagle/) (LI)
-* [Do You Know Your Company&amp;s Ontologies?](https://www.linkedin.com/pulse/do-you-know-your-companys-ontologies-kurt-cagle/) 2015-05-01 (LI)
+* [Do You Know Your Companys Ontologies?](https://www.linkedin.com/pulse/do-you-know-your-companys-ontologies-kurt-cagle/) 2015-05-01 (LI)
 
 ## Standards
 * [The Trouble With Standards](https://www.forbes.com/sites/cognitiveworld/2019/01/30/the-trouble-with-standards/#359bd9cb71b3) 2019-01-30 (F)
@@ -60,7 +60,7 @@ Select articles from the proflific and insightful Kurt Cagle.
 
 ## Other Topics
 * [Digital Transformation Management - New Idea or Buzzword of the Week?](https://www.linkedin.com/pulse/digital-transformation-management-new-idea-buzzword-kurt-cagle/) 207-09-18 (LI)
-* [Maybe It&amp;s Not Agile](https://www.linkedin.com/pulse/maybe-its-agile-kurt-cagle/) 2017-09-04 (LI)
+* [Maybe Its Not Agile](https://www.linkedin.com/pulse/maybe-its-agile-kurt-cagle/) 2017-09-04 (LI)
 * [Smackdown: XML vs. JSON](https://www.linkedin.com/pulse/smackdown-xml-vs-json-kurt-cagle/)  2017-08-09 (LI)
 * [How To Build A Smart Data Hub](https://www.linkedin.com/pulse/how-build-smart-data-hub-kurt-cagle/) 2017-04-21 (LI)
     * From dumb data lakes to Smart Data Hubs
