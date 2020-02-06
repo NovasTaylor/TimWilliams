@@ -10,6 +10,9 @@ Select articles from the prolific and insightful Kurt Cagle.
 * [Digital Transformation](https://www.linkedin.com/pulse/state-graph-digital-transformation-kurt-cagle/) 2020-01-09
 * [Knowledge Graphs Emerge As First Killer App](https://www.linkedin.com/pulse/state-graph-knowledge-graphs-emerge-first-killer-app-kurt-cagle/?trackingId=qj76%2BYg0R3et74k1sKTsxw%3D%3D) 2020-01-12
 * [The Merger of Property Graphs and Semantic Graphs](https://www.linkedin.com/pulse/state-graph-merger-property-graphs-semantic-kurt-cagle/) 2020-01-26
+* [State of the Graph: JSON-LD, GraphQL and Graph Serialization](https://www.linkedin.com/pulse/state-graph-json-ld-graphql-serialization-kurt-cagle)
+
+
 
 ## Misc Graph DB/KG Posts
 
